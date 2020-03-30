@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-entry--living",
-      "name": "Entry & Living",
+      "id": "0-entryfamily",
+      "name": "Entry/Family",
       "levels": [
         {
           "tileSize": 256,
@@ -24,22 +24,22 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -0.8934988927618548,
-        "pitch": -0.018536844724593493,
+        "yaw": -0.42156511808203234,
+        "pitch": 0.006863206887782525,
         "fov": 1.3219339076578436
       },
       "linkHotspots": [
         {
-          "yaw": -2.3341673177388422,
-          "pitch": 0.21167276099275156,
-          "rotation": 4.71238898038469,
-          "target": "1-kitchen"
+          "yaw": 0.13759998615961422,
+          "pitch": 0.2553550942389293,
+          "rotation": 0,
+          "target": "2-master-with-en-suite"
         },
         {
-          "yaw": 0.13679583222128322,
-          "pitch": 0.29975194641891534,
-          "rotation": 6.283185307179586,
-          "target": "2-master-with-en-suite"
+          "yaw": -2.341762391427844,
+          "pitch": 0.31484020970317417,
+          "rotation": 4.71238898038469,
+          "target": "1-kitchen"
         }
       ],
       "infoHotspots": []
@@ -68,22 +68,22 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -0.6714174775529216,
-        "pitch": 0.045065928670148026,
+        "yaw": -1.3384784068406645,
+        "pitch": 0.08262086922860945,
         "fov": 1.3219339076578436
       },
       "linkHotspots": [
         {
-          "yaw": -2.3409632512489473,
-          "pitch": 0.46547316275835726,
+          "yaw": -2.339556350460356,
+          "pitch": 0.32044034609531913,
           "rotation": 4.71238898038469,
-          "target": "0-entry--living"
+          "target": "0-entryfamily"
         },
         {
-          "yaw": -1.373627818283662,
-          "pitch": 0.21069635256684904,
+          "yaw": -1.3533389952043304,
+          "pitch": 0.41810759163294264,
           "rotation": 0,
-          "target": "2-master-with-en-suite"
+          "target": "3-bedroom-2"
         }
       ],
       "infoHotspots": []
@@ -112,11 +112,18 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": 1.817776771848263,
-        "pitch": 0.002512054234520278,
+        "yaw": -2.4873316783795882,
+        "pitch": 0.04090367203883183,
         "fov": 1.3219339076578436
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 1.8171778250172927,
+          "pitch": 0.16294257968048242,
+          "rotation": 5.497787143782138,
+          "target": "0-entryfamily"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -143,16 +150,23 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -0.35152062830899666,
-        "pitch": 0.03998025177187259,
-        "fov": 1.3219339076578436
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.233125809151897,
+          "pitch": 0.42723071663900747,
+          "rotation": 0,
+          "target": "0-entryfamily"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "4-back-yard",
-      "name": "Back Yard",
+      "id": "4-backyard",
+      "name": "Backyard",
       "levels": [
         {
           "tileSize": 256,
@@ -174,18 +188,11 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "yaw": -1.1967875513675423,
-        "pitch": 0.12017580978707265,
+        "yaw": -1.2085099812870226,
+        "pitch": 0.17297807316672476,
         "fov": 1.3219339076578436
       },
-      "linkHotspots": [
-        {
-          "yaw": 0.622037340058645,
-          "pitch": 0.21167949787415452,
-          "rotation": 0.7853981633974483,
-          "target": "1-kitchen"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
